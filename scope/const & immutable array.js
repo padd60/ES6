@@ -12,4 +12,5 @@ home();
 const list = ["apple", "orange", "watermelon"];
 list2 = [].concat(list, "banana");
 console.log(list === list2);
+// 위 결과는 false로 나온다.
 // 쉽게 말해 복사본의 변경된 배열값을 얻는 것을 말한다.
